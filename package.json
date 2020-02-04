@@ -1,6 +1,6 @@
 {
   "name": "@tanooki/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for Tanooki Labs' projects",
   "main": "index.js",
   "private": false,

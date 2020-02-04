@@ -1,5 +1,5 @@
 {
-  "name": "tanooki-eslint-config",
+  "name": "eslint-config-tanooki",
   "version": "1.0.0",
   "description": "ESLint config for Tanooki Labs' projects",
   "main": "index.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:TanookiLabs/tanooki-eslint-config.git"
+    "url": "git@github.com:TanookiLabs/eslint-config-tanooki.git"
   },
   "author": "Tanooki Labs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TanookiLabs/tanooki-eslint-config/issues"
+    "url": "https://github.com/TanookiLabs/eslint-config-tanooki/issues"
   },
-  "homepage": "https://github.com/TanookiLabs/tanooki-eslint-config#readme",
+  "homepage": "https://github.com/TanookiLabs/eslint-config-tanooki#readme",
   "dependencies": {},
   "peerDependencies": {
-    "prettier": "> 1",
-    "eslint": "> 6",
-    "babel-eslint": "> 9",
-    "eslint-config-prettier": "> 6",
-    "eslint-plugin-import": "> 2",
-    "eslint-plugin-prettier": "> 3"
+    "prettier": ">= 1",
+    "eslint": ">= 6",
+    "babel-eslint": ">= 9",
+    "eslint-config-prettier": ">= 6",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-prettier": ">= 3"
   }
 }

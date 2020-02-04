@@ -34,3 +34,14 @@
     ```
 
 ## Setup for React projects
+
+1.  Follow the instructions for non-React projects
+2.  Add the following dependencies: `yarn add eslint-plugin-react-hooks eslint-plugin-react-hooks`
+3.  Update your `.eslintrc.js` to extend the React config instead of the default config.
+
+    ```
+      // ...
+      // REMOVE:  extends: ['tanooki'],
+      extends: ['tanooki/react'],
+      // ...
+    ```

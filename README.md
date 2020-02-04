@@ -44,6 +44,6 @@
     ```
       // ...
       // REMOVE:  extends: ['@tanooki'],
-      extends: [''@tanooki/eslint-config/react'],
+      extends: ['@tanooki/eslint-config/react'],
       // ...
     ```

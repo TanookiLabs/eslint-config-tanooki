@@ -1,4 +1,8 @@
+[![npm version](https://badge.fury.io/js/eslint-config-tanooki.svg)](https://badge.fury.io/js/eslint-config-tanooki)
+
 # Tanooki ESLint Config
+
+https://www.npmjs.com/package/eslint-config-tanooki
 
 ## Setup for non-React projects
 

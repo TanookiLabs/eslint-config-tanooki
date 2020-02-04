@@ -2,8 +2,6 @@
 
 # Tanooki ESLint Config
 
-https://www.npmjs.com/package/eslint-config-tanooki
-
 ## Setup for non-React projects
 
 1.  Install the dependencies: `yarn add @tanooki/eslint-config prettier eslint babel-eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier`

@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/eslint-config-tanooki.svg)](https://badge.fury.io/js/eslint-config-tanooki)
+[![npm version](https://badge.fury.io/js/%40tanooki%2Feslint-config.svg)](https://badge.fury.io/js/%40tanooki%2Feslint-config)
 
 # Tanooki ESLint Config
 
@@ -6,7 +6,7 @@ https://www.npmjs.com/package/eslint-config-tanooki
 
 ## Setup for non-React projects
 
-1.  Install the dependencies: `yarn add eslint-config-tanooki prettier eslint babel-eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier`
+1.  Install the dependencies: `yarn add @tanooki/eslint-config prettier eslint babel-eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier`
 2.  Update your `.eslintrc.js` file to extend the configuration:
 
     ```
@@ -16,7 +16,7 @@ https://www.npmjs.com/package/eslint-config-tanooki
         browser: true,
         es6: true,
       },
-      extends: ['tanooki'],
+      extends: ['@tanooki'],
       plugins: [],
       globals: {
         Atomics: 'readonly',
@@ -45,7 +45,7 @@ https://www.npmjs.com/package/eslint-config-tanooki
 
     ```
       // ...
-      // REMOVE:  extends: ['tanooki'],
-      extends: ['tanooki/react'],
+      // REMOVE:  extends: ['@tanooki'],
+      extends: [''@tanooki/eslint-config/react'],
       // ...
     ```

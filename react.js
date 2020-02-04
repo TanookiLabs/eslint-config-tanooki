@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["tanooki", "prettier/react", "plugin:react/recommended"],
+  extends: ["@tanooki", "prettier/react", "plugin:react/recommended"],
   plugins: ["react-hooks"],
   rules: {
     "prettier/prettier": [
